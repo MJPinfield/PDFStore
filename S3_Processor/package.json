@@ -1,8 +1,8 @@
 {
-  "name": "pdfstore",
+  "name": "s3_processor",
   "version": "1.0.0",
-  "description": "Document archival and seach system",
-  "main": "pdf_to_image.js",
+  "description": "",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,14 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/MJPinfield/PDFStore.git"
   },
-  "author": "Max Pinfield <github@mjpinfield.co.uk>",
+  "author": "Max Pinfield <code@mjpinfield.co.uk>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/MJPinfield/PDFStore/issues"
   },
   "homepage": "https://github.com/MJPinfield/PDFStore#readme",
   "dependencies": {
-    "bee-queue": "^1.3.1",
-    "pdf-image": "^2.0.0"
+    "aws-sdk": "^2.828.0",
+    "bee-queue": "^1.3.1"
   }
 }

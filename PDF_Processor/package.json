@@ -1,0 +1,24 @@
+{
+  "name": "pdf_processor",
+  "version": "1.0.0",
+  "description": "Service to handle PDF text extraction",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MJPinfield/PDFStore.git"
+  },
+  "author": "Max Pinfield <code@mjpinfield.co.uk>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MJPinfield/PDFStore/issues"
+  },
+  "homepage": "https://github.com/MJPinfield/PDFStore#readme",
+  "dependencies": {
+    "@elastic/elasticsearch": "^7.10.0",
+    "bee-queue": "^1.3.1",
+    "request": "^2.88.2"
+  }
+}

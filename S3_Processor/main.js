@@ -38,5 +38,6 @@ s3_upload.process(function(job, done) {
 
 
 s3_upload.on('succeeded', (job, result) => {
+    console.log(job);
     console.log(result);
 });
